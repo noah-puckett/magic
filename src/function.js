@@ -15,13 +15,14 @@ function getRandomInt(max) {
 function randomAnswer() {
     //declare MAX value to be the LENGTH of my ARRAY (so that I don't have an off-by-one error,
     //and if my array length changes the MAX value is still the length of the ARRAY)
-    const max = randomAnswerArray.length();
+    const max = randomAnswerArray.length;
     
     //answer = ARRAY[INDEX NUMBER is RANDOM INT with MAX as ARRAY LENGTH]
     const answer = randomAnswerArray[getRandomInt(max)];
     return answer;
 }
 
+export default randomAnswer;
 
 
 
