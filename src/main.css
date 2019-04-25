@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+}
+
+#html-paragraph {
+    font-size: 2em;
+}
+
+#submit-button {
+    width: 300px;
+    height: 30px;
+}
