@@ -1,3 +1,5 @@
+import getRandomInt from './qunitfunction.js';
+
 const randomAnswerArray = ['It is certain', 'It is decidedly so', 'Without a doubt',
     'Yes - definitely', 'You may rely on it', 'As I see it, yes', 'Most likely',
     'Outlook good', 'Yes', 'Signs point to yes', 'Reply hazy, try again', 'Ask again later', 
@@ -5,10 +7,6 @@ const randomAnswerArray = ['It is certain', 'It is decidedly so', 'Without a dou
     'Don\'t count on it', 'My reply is no', 'My sources say no', 'Outlook not so good',
     'Very doubtful'];
 
-//function below takes MAX value and returns RANDOM INTEGER NUMBER
-function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-}
 
 //ok FIRST, when I make randomAnswer here I DON'T need to give it arguments, though I feel weird
 //not doing that
@@ -22,7 +20,7 @@ function randomAnswer() {
     return answer;
 }
 
-export default randomAnswer;
+export default randomAnswer; 
 
 
 
